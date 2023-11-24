@@ -1,0 +1,19 @@
+/*Header*/
+
+.menu-principal{
+    display: flex;
+    justify-content: center;
+    
+}
+.menu-principal>li{
+    padding: 50px;
+    
+
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+
