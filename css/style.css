@@ -1,4 +1,14 @@
-/*Header*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,100&display=swap');
+:root{
+    --letra:'Roboto Serif', serif;
+}
+
+*{
+    margin: 10px;
+}
+
+/* Header */
 
 .menu-principal{
     display: flex;
@@ -6,9 +16,7 @@
     
 }
 .menu-principal>li{
-    padding: 50px;
-    
-
+    padding: 40px;
 }
 a{
     text-decoration: none;
@@ -17,3 +25,16 @@ ul{
     list-style-type: none;
 }
 
+/* Main */
+
+main{
+    display: flex;
+}
+main>section{
+    width: 50%;
+    font-family: var(--letra);
+}
+main>aside{
+    width: 50%;
+    font-family: var(--letra);
+}
