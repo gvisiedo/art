@@ -31,10 +31,30 @@ main{
     display: flex;
 }
 main>section{
-    width: 50%;
+    width: 75%;
     font-family: var(--letra);
 }
 main>aside{
-    width: 50%;
+    width: 25%;
     font-family: var(--letra);
+}
+
+.iconos-servicios{
+    display: flex;
+    justify-content: center;
+    
+}
+.iconos{
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 25px;
+}
+.blog-article{
+    display: flex;
+    justify-content: center;
+}
+
+article{
+    border: 1px solid black;
+    padding: 25px;
 }
