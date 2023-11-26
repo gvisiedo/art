@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,100&display=swap');
 :root{
     --letra:'Roboto Serif', serif;
+    --blueCentral:#3BB2C7;
+    --blueLight:#A2E7F3;
+    --blueFly:#D8EFF3;
 }
 
 *{
@@ -9,6 +12,11 @@
 }
 
 /* Header */
+header{
+    background-color:var(--blueFly);
+    font-family: var(--letra);
+    
+}
 
 .menu-principal{
     display: flex;
@@ -20,6 +28,7 @@
 }
 a{
     text-decoration: none;
+    color: black;
 }
 ul{
     list-style-type: none;
@@ -28,6 +37,8 @@ ul{
 /* Main */
 
 main{
+    background-color: var(--blueCentral);
+    color: white;
     display: flex;
 }
 main>section{
@@ -57,4 +68,9 @@ main>aside{
 article{
     border: 1px solid black;
     padding: 25px;
+}
+/* Footer */
+
+footer{
+    background-color: var(--blueLight);
 }
