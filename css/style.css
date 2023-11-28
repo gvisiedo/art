@@ -20,12 +20,10 @@ header{
 
 .menu-principal{
     display: flex;
-    justify-content: center;
-    
+    /*justify-content: center;
+    padding: 10px;*/
 }
-.menu-principal>li{
-    padding: 30px;
-}
+
 a{
     text-decoration: none;
     color: black;
@@ -91,12 +89,18 @@ footer{
     display: flex;
     flex-direction: row;
 }
+.footer-section-top-first{
+    width: 75%;
+}
+.footer-section-top-second{
+    width: 25%;
+}
 .footer-section-bottom{
     display: flex;
 }
 .footer-section-bottom-first{
-    width: 75%;
+    width: 60%;
 }
 .footer-section-bottom-second{
-width: 25%;
+width: 40%;
 }
