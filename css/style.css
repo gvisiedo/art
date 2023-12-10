@@ -20,8 +20,12 @@ header{
 
 .menu-principal{
     display: flex;
-    /*justify-content: center;
-    padding: 10px;*/
+    /*justify-content: center;*/
+    
+}
+.menu-principal>li{
+    padding: 5px;
+    margin: auto;
 }
 
 a{
@@ -78,6 +82,24 @@ main>aside{
 article{
     border: 1px solid black;
     padding: 25px;
+}
+/* Form */
+form{
+    width: 50%;
+    margin: 25px auto;
+    text-align: center;
+    /*display: flex;
+    flex-wrap: wrap;*/
+    align-items: center;
+}
+form>input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+}
+form>textarea{
+    width: 100%;
+    border-radius: 10px;
 }
 /* Footer */
 
