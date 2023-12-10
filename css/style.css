@@ -87,20 +87,22 @@ article{
 form{
     width: 50%;
     margin: 25px auto;
-    text-align: center;
-    /*display: flex;
+    font-family: var(--letra);
+    font-size: 20px;
+    /*text-align: center;
+    display: flex;
     flex-wrap: wrap;*/
     align-items: center;
 }
+
 form>input{
-    width: 100%;
+    width: 75%;
     padding: 10px;
-    border-radius: 10px;
+    border: none;
+    border-bottom: 2px solid black;
+    background-color: var(--blueCentral);
 }
-form>textarea{
-    width: 100%;
-    border-radius: 10px;
-}
+
 /* Footer */
 
 footer{
